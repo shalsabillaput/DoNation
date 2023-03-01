@@ -22,7 +22,7 @@ class GoogleController extends Controller
             if($finduser){
                 // dd($user->id);
                 Auth::login($finduser);
-                return redirect()->intended('/');
+                return redirect()->intended('/home');
             }else{
                 $exist = User::where('email', $user->getEmail())->first();
                 if ($exist) {
@@ -32,7 +32,7 @@ class GoogleController extends Controller
                         "googleid" => $save
                     ];
                     User::where('id', auth()->user()->id)->update($rules);
-                    return redirect('/');
+                    return redirect('/home');
                 }else {
                     $newUser = User::create([
                         'name' => $user->getName(),

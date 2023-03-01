@@ -33,3 +33,7 @@ Route::post('/validasi', [AuthController::class, 'validasi']);
 Route::get('auth/google', [GoogleController::class, 'redirectToGoogle'])->name('google.login');
 Route::get('auth/google/callback', [GoogleController::class, 'handleGoogleCallback'])->name('google.callback');
 Route::post('/logout', [AuthController::class, 'logout'])->middleware('auth');
+
+Route::get('/profil', function () {
+    return view('user.profil');
+});

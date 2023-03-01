@@ -34,7 +34,7 @@ class AuthController extends Controller
         $validatedData = $request->validate($rules);
         $validatedData['password'] = Hash::make($validatedData['password']);
         User::where('id', auth()->user()->id)->update($validatedData);
-        return redirect('/');
+        return redirect('/home');
     }
 
     public function login()
