@@ -20,6 +20,10 @@ class AuthController extends Controller
         return view('validasi');
     }
 
+    public function home(){
+        return view('home');
+    }
+
     public function validasi(Request $request){
         // dd("erga cantik");
         $rules = [
