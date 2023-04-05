@@ -26,6 +26,7 @@
 
 		      	<form action="/register" method="POST" class="signin-form">
                     @csrf
+                    <input type="hidden" name="otp" value="{{ @rand(100000, 999999) }}">
 		      		<div class="form-group">
 		      			<input type="text" class="form-control @error('name') is-invalid @enderror" name="name" placeholder="Nama lengkap" required value="{{ old('name') }}">
                         @error('name')
@@ -56,8 +57,8 @@
                         @enderror
                     </div>
                     <div class="form-group">
-                        <input id="password-field" type="password" name="password_confirmation" class="form-control" placeholder="Konfirmasi password" required>
-                        <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                        <input id="password-field2" type="password" name="password_confirmation" class="form-control" placeholder="Konfirmasi password" required>
+                        <span toggle="#password-field2" class="fa fa-fw fa-eye field-icon toggle-password"></span>
                     </div>
                     <div class="form-group">
                         <button type="submit" class="form-control btn btn-primary submit px-3">Registrasi akun</button>

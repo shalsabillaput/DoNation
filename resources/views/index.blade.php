@@ -49,12 +49,13 @@
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
-          <li><a class="nav-link scrollto" href="#services">Berita</a></li>
+          <li><a class="nav-link scrollto" href="#berita">Berita</a></li>
           <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
           @auth
             <li class="dropdown"><a href="#"><span>{{ auth()->user()->username }}</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
                 <li><a href="/profil">Profil</a></li>
+                <li><a href="/ubahpassword">Ubah Password</a></li>
                 <form action="/logout" method="post">
                 @csrf
                     <button class="dropdown-item" type="submit">Keluar</button>
@@ -172,7 +173,7 @@
 
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <section id="berita" class="services">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">

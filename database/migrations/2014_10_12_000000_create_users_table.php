@@ -26,6 +26,7 @@ return new class extends Migration
             $table->boolean('anonim')->default(0);
             $table->boolean('gender')->nullable();
             $table->integer('totalsaldo')->default(0);
+            $table->integer('otp')->nullable();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password')->nullable();
             $table->rememberToken();

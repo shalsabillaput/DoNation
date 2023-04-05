@@ -57,7 +57,9 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #4B6587; }
+  /* background-image: url(assets/img/team/nazar.jpeg); */
+  background-color: #4B6587;
+ }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -8347,4 +8349,3 @@ textarea.form-control {
         background: #fbceb5;
         color: #fff; }
 
- 

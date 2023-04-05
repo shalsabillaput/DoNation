@@ -280,9 +280,19 @@ h6 {
   font-size: 12px;
 }
 
+.navbar .dropdown ul button i {
+    font-size: 12px;
+  }
+
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
+  background-color: #ffc451;
+}
+
+.navbar .dropdown ul button:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover>button {
   background-color: #ffc451;
 }
 
