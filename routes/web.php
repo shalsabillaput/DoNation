@@ -50,3 +50,16 @@ Route::post('/resetpassword', [ResetPasswordController::class, 'resetpass'])->mi
 
 Route::get('/ubahpassword', [ChangePasswordController::class, 'index'])->middleware('auth');
 Route::post('/ubahpassword', [ChangePasswordController::class, 'store'])->middleware('auth');
+
+
+Route::get('/listprogram', function () {
+    return view('user.listprogram');
+
+
+});
+
+Route::get('/detailprogram', function () {
+    return view('user.detailprogram');
+
+
+});
