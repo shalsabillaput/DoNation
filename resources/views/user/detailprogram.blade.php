@@ -130,29 +130,33 @@
         <div class="container" data-aos="fade-up">
 
           <div class="row">
-            {{-- <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-              <img src="assets/img/donation.jfif" class="img-fluid" alt="">
-            </div> --}}
-            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-              <h3>#BisaBebasStunting: Donasi untuk Bantu Pengobatan</h3>
-              <p class="fst-">
-                  DoNation merupakan website yang memfasilitasi serta menyalurkan donasi melalui 3 kategori program yang ada yaitu Kemanusiaan, Pendidikan, dan Infrastruktur
-              </p>
-              <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-                  <h3>Visi</h3>
+            <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+              {{-- <img src="assets/img/donation.jfif" class="img-fluid" alt=""> --}}
+            </div>
+            <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 content" style="margin-top: 3%" data-aos="fade-right" data-aos-delay="100">
+              <h3>#BantuanBencana : Donasi untuk Bantu Korban Banjir</h3>
+              <p class="small mb-0"><i class="far fa-star fa-lg"></i> <span class="mx-2">|</span> Dibuat oleh
+                <strong>Yayasan Al Ma'ruf</strong> pada 11 April , 2021</p>
+            <div style="margin-top: 40px"> <h5>Rp46.544.322</h5> </div>
+            <div style="margin-top: 10px"> <h6>Terkumpul dari Rp50.000.000</h6> </div>
+              <div class="progress" style="margin-top: 20px">
+                <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-                  <p class="fst-">
-                      “Menjadi website donasi yang aktif membantu meringankan penderitaan sesama yang membutuhkan, dalam bidang Kemanusiaan, Pendidikan, dan Infrastruktur untuk mencapai dan mewujudkan kualitas hidup yang lebih baik  ”
+                  <p class="fst-" style="margin-top: 50px">
+                    Jelang Imlek, banjir pun melanda daerah Pati, Demak, Kudus, Brebes, hingga Kebumen. Banjir paling parah terjadi di Kecamatan Sayung, Demak, Jawa Tengah. Ada sekitar 31.099 jiwa yang menjadi korban banjir di kawasan Sayung.
+
+                    Nah, bagi kamu yang peduli terhadap musibah tersebut, bisa ikut membantu dengan membuatkan link donasi. Jika donasi terkumpul, kamu dapat memberikan langsung kepada korban banjir di daerah terdekat.
                   </p>
               <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-                  <h3>Misi</h3>
               </div>
-              <ul>
-                  <li><i class="ri-check-double-line"></i> Membangun kesadaran masyarakat Indonesia untuk peduli kepada sesama</li>
-                  <li><i class="ri-check-double-line"></i> Menciptakan sarana donasi yang aman dan terpercaya </li>
-                  <li><i class="ri-check-double-line"></i> Meringankan beban masyarakat Indonesia yang mengalami musibah </li>
-                </ul>
+              <div class="parent" style="margin-top: 60px">
+             <a href="/payment"> <button type="button" class="btn btn-primary btn-lg">Donasi Sekarang</button></a>
             </div>
+              {{-- <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" style="margin-top:40px" data-aos="fade-right" data-aos-delay="100">
+                <h6><b>Penggalang Dana :</b></h6>
+            </div>
+            <div style="margin-top: 10px"> <h6>Yayasan Al Ma'ruf</h6> </div> --}}
+
           </div>
 
         </div>

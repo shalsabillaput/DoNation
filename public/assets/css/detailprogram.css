@@ -1917,3 +1917,24 @@ body {
 
   /* end css profil */
 
+  .parent {
+    display: grid;
+    place-items: center;
+    }
+
+    /* Style Button */
+  	.button-custom {
+        display: inline-block;
+        background: #4b6587;
+        color: #fff;
+        width: 240px;
+        height: 50px;
+        border-radius: 5px;
+        border: thin solid #888;
+        box-shadow: 1px 1px 1px grey;
+        white-space: nowrap;
+        font-size: 16px;
+        font-weight: normal;
+        font-family: 'Roboto', sans-serif;
+        margin: 2rem 0;
+        }

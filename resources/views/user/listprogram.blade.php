@@ -173,7 +173,7 @@
                   <div class="d-flex flex-column mt-4">
                     {{-- <button class="btn btn-primary btn-sm" type="button">Details</button> --}}
                     <button class="btn btn-outline-primary btn-sm mt-2" type="button">
-                     Selengkapnya...
+                        <a href="/detailprogram">Selengkapnya...</a>
                     </button>
                   </div>
                 </div>
@@ -240,7 +240,7 @@
                   <div class="d-flex flex-column mt-4">
                     {{-- <button class="btn btn-primary btn-sm" type="button">Details</button> --}}
                     <button class="btn btn-outline-primary btn-sm mt-2" type="button">
-                     Selengkapnya...
+                        <a href="/detailprogram">Selengkapnya...</a>
                     </button>
                   </div>
                 </div>
@@ -307,7 +307,7 @@
                   <div class="d-flex flex-column mt-4">
                     {{-- <button class="btn btn-primary btn-sm" type="button">Details</button> --}}
                     <button class="btn btn-outline-primary btn-sm mt-2" type="button">
-                     Selengkapnya...
+                        <a href="/detailprogram">Selengkapnya...</a>
                     </button>
                   </div>
                 </div>

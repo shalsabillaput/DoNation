@@ -21,8 +21,17 @@ Route::get('/', function () {
     return view('index');
 });
 
+<<<<<<< Updated upstream
 Route::get('/login', [AuthController::class, 'login'])->name("login")->middleware('guest');
 Route::post('/login', [AuthController::class, 'authenticate'])->middleware('guest');
+=======
+Route::get('/donasi', function () {
+    return view('donasi');
+});
+
+Route::get('/login', [AuthController::class, 'login']);
+Route::post('/login', [AuthController::class, 'authenticate']);
+>>>>>>> Stashed changes
 
 Route::get('/home', [AuthController::class, 'home'])->middleware('auth');
 
@@ -60,6 +69,12 @@ Route::get('/listprogram', function () {
 
 Route::get('/detailprogram', function () {
     return view('user.detailprogram');
+
+
+});
+
+Route::get('/payment', function () {
+    return view('user.payment');
 
 
 });

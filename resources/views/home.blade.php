@@ -119,13 +119,13 @@
         <div class="col-lg-3 col-md-12">
           <div class="icon-box">
             <i class="ri-hand-heart-line"></i>
-            <h3><a href="">Donasi</a></h3>
+            <h3><a href="/listprogram">Donasi</a></h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-12">
           <div class="icon-box">
             <i class="ri-home-heart-line"></i>
-            <h3><a href="">Program</a></h3>
+            <h3><a href=>Galang Dana</a></h3>
           </div>
         </div>
       </div>
@@ -284,16 +284,16 @@
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/badut.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/banjir2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
+                <h4>#BantuanBencana : Donasi untuk Bantu Korban Banjir</h4>
+                <p> <a href="/detailprogram" class="portfolio-link">lihat program</a></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/badut.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/badut.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i></i></a>
+
+                  <a href='/detailprogram' title="More Details"><i></i></a>
                 </div>
               </div>
             </div>
@@ -303,11 +303,11 @@
             <div class="portfolio-wrap">
               <img src="assets/img/wudhu.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
+                <h4>#BantuanBencana : Donasi untuk Bantu Korban Banjir</h4>
+                <p> <a href="/detailprogram" class="portfolio-link">lihat program</a></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/wudhu.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/wudhu.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i></i></a>
                 </div>
               </div>
             </div>
@@ -317,11 +317,11 @@
             <div class="portfolio-wrap">
               <img src="assets/img/rumah.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
+                <h4>#BantuanBencana : Donasi untuk Bantu Korban Banjir</h4>
+                <p> <a href="/detailprogram" class="portfolio-link">lihat program</a></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/rumah.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/rumah.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i></i></a>
                 </div>
               </div>
             </div>
@@ -331,17 +331,17 @@
             <div class="portfolio-wrap">
               <img src="assets/img/jalan1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
+                <h4>#BantuanBencana : Donasi untuk Bantu Korban Banjir</h4>
+                <p> <a href="/detailprogram" class="portfolio-link">lihat program</a></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/jalan1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/jalan1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          {{-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="assets/img/banjir.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -353,17 +353,17 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> --}}
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="assets/img/sekolah.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
+                <h4>#BantuanBencana : Donasi untuk Bantu Korban Banjir</h4>
+                <p> <a href="/detailprogram" class="portfolio-link">lihat program</a></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/sekolah.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/sekolah.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i></i></a>
                 </div>
               </div>
             </div>
@@ -373,11 +373,11 @@
             <div class="portfolio-wrap">
               <img src="assets/img/kebakaran.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
+                <h4>#BantuanBencana : Donasi untuk Bantu Korban Banjir</h4>
+                <p> <a href="/detailprogram" class="portfolio-link">lihat program</a></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/kebakaran.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/kebakaran.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i></i></a>
                 </div>
               </div>
             </div>
@@ -387,11 +387,11 @@
             <div class="portfolio-wrap">
               <img src="assets/img/sakit.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
+                <h4>#BantuanBencana : Donasi untuk Bantu Korban Banjir</h4>
+                <p> <a href="/detailprogram" class="portfolio-link">lihat program</a></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/sakit.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/sakit.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i></i></a>
                 </div>
               </div>
             </div>
@@ -401,11 +401,11 @@
             <div class="portfolio-wrap">
               <img src="assets/img/lansia.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
+                <h4>#BantuanBencana : Donasi untuk Bantu Korban Banjir</h4>
+                <p> <a href="/detailprogram" class="portfolio-link">lihat program</a></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/lansia.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/lansia.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i></i></a>
                 </div>
               </div>
             </div>
@@ -415,11 +415,11 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/sekolah1.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
+                <h4>#BantuanBencana : Donasi untuk Bantu Korban Banjir</h4>
+                <p> <a href="/detailprogram" class="portfolio-link">lihat program</a></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/sekolah1.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/sekolah1.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i></i></a>
                 </div>
               </div>
             </div>
@@ -429,11 +429,12 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/sekolah3.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
+                <h4>#BantuanBencana : Donasi untuk Bantu Korban Banjir</h4>
+                <p> <a href="/detailprogram" class="portfolio-link">lihat program</a></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/sekolah3.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/sekolah3.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i></i></a>
+
                 </div>
               </div>
             </div>
@@ -443,11 +444,11 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/sekolah4.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
+                <h4>#BantuanBencana : Donasi untuk Bantu Korban Banjir</h4>
+                <p> <a href="/detailprogram" class="portfolio-link">lihat program</a></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/sekolah4.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/sekolah4.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i></i></a>
                 </div>
               </div>
             </div>
@@ -457,11 +458,12 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/sekolah5.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
+                <h4>#BantuanBencana : Donasi untuk Bantu Korban Banjir</h4>
+                <p> <a href="/detailprogram" class="portfolio-link">lihat program</a></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/sekolah5.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/sekolah5.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i></i></a>
+
                 </div>
               </div>
             </div>
@@ -471,11 +473,12 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/sekolah2.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
+                <h4>#BantuanBencana : Donasi untuk Bantu Korban Banjir</h4>
+                <p> <a href="/detailprogram" class="portfolio-link">lihat program</a></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/sekolah2.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/sekolah2.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i></i></a>
+
                 </div>
               </div>
             </div>
@@ -485,11 +488,11 @@
             <div class="portfolio-wrap">
               <img src="assets/img/jembatan.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
+                <h4>#BantuanBencana : Donasi untuk Bantu Korban Banjir</h4>
+                <p> <a href="/detailprogram" class="portfolio-link">lihat program</a></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/jembatan.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/jembatan.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i></i></a>
                 </div>
               </div>
             </div>
