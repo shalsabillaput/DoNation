@@ -52,8 +52,8 @@
           <li><a class="nav-link scrollto" href="#berita">Berita</a></li>
           <li class="dropdown"><a href="#"><span>Riwayat</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-            <li><a href="/login">Program</a></li>
-            <li><a href="/register">Donasi</a></li>
+            <li><a href="/hispro">Program</a></li>
+            <li><a href="/hisdon">Donasi</a></li>
             </ul>
         </li>
           @auth
@@ -125,8 +125,9 @@
 
   <main id="main">
 
-     <!-- ======= About Section ======= -->
+     <!-- ======= Detail Section ======= -->
      <section id="about" class="about">
+        @foreach($programs as $program)
         <div class="container" data-aos="fade-up">
 
           <div class="row">
@@ -142,11 +143,9 @@
               <div class="progress" style="margin-top: 20px">
                 <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-                  <p class="fst-" style="margin-top: 50px">
-                    Jelang Imlek, banjir pun melanda daerah Pati, Demak, Kudus, Brebes, hingga Kebumen. Banjir paling parah terjadi di Kecamatan Sayung, Demak, Jawa Tengah. Ada sekitar 31.099 jiwa yang menjadi korban banjir di kawasan Sayung.
-
-                    Nah, bagi kamu yang peduli terhadap musibah tersebut, bisa ikut membantu dengan membuatkan link donasi. Jika donasi terkumpul, kamu dapat memberikan langsung kepada korban banjir di daerah terdekat.
-                  </p>
+                <p class="fst-" style="margin-top: 50px">
+                    {{ $programs->deskripsi }}
+                </p>
               <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
               </div>
               <div class="parent" style="margin-top: 60px">
@@ -160,7 +159,8 @@
           </div>
 
         </div>
-      </section><!-- End About Section -->
+        @endforeach
+      </section><!-- End Detail Section -->
 
 
     <!-- ======= Clients Section ======= -->

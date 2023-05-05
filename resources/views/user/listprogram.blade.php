@@ -52,8 +52,8 @@
           <li><a class="nav-link scrollto" href="#berita">Berita</a></li>
           <li class="dropdown"><a href="#"><span>Riwayat</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-            <li><a href="/login">Program</a></li>
-            <li><a href="/register">Donasi</a></li>
+            <li><a href="/hispro">Program</a></li>
+            <li><a href="/hisdon">Donasi</a></li>
             </ul>
         </li>
           @auth
@@ -114,208 +114,64 @@
     </div>
   </section><!-- End Portfolio Section -->
   <section style="background-color: #eee;">
-    <div class="container py-5">
-      <div class="row justify-content-center mb-3">
-        <div class="col-md-12 col-xl-10">
-          <div class="card shadow-0 border rounded-3">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-                  <div class="bg-image hover-zoom ripple rounded ripple-surface">
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(4).webp"
-                      class="w-100" />
-                    <a href="#!">
-                      <div class="hover-overlay">
-                        <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-6">
-                  <h5>Sedekah untuk 75 santri</h5>
-                  <div class="d-flex flex-row">
-                    <div class="text-danger mb-1 me-2">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
+    @foreach ($programs as $program)
+        <div class="container py-5">
+        <div class="row justify-content-center mb-3">
+            <div class="col-md-12 col-xl-10">
+            <div class="card shadow-0 border rounded-3">
+                <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
+                    <div class="bg-image hover-zoom ripple rounded ripple-surface">
+                        <img src="assets\img\banjir3.jpg"
+                        class="w-100" />
+                        <a href="#!">
+                        <div class="hover-overlay">
+                            <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                        </div>
+                        </a>
                     </div>
-                    <span>yayasan Al Ma'ruf</span>
-                  </div>
-                  {{-- <div class="mt-1 mb-0 text-muted small">
-                    <span>100% cotton</span>
-                    <span class="text-primary"> • </span>
-                    <span>Light weight</span>
-                    <span class="text-primary"> • </span>
-                    <span>Best finish<br /></span>
-                  </div>
-                  <div class="mb-2 text-muted small">
-                    <span>Unique design</span>
-                    <span class="text-primary"> • </span>
-                    <span>For men</span>
-                    <span class="text-primary"> • </span>
-                    <span>Casual<br /></span>
-                  </div> --}}
-                  <div class="progress" style="margin-top: 30px">
-                    <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="text-truncate mb-4 mb-md-0" style="margin-top: 10px
-                  ">
-                   Rp46.690.122
-                  </p>
-                </div>
-                <div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
-                  {{-- <div class="d-flex flex-row align-items-center mb-1">
-                    <h4 class="mb-1 me-1">$13.99</h4>
-                    <span class="text-danger"><s>$20.99</s></span>
-                  </div> --}}
-                  <h6 class="text-success">47 Hari lagi</h6>
-                  <div class="d-flex flex-column mt-4">
-                    {{-- <button class="btn btn-primary btn-sm" type="button">Details</button> --}}
-                    <button class="btn btn-outline-primary btn-sm mt-2" type="button">
-                        <a href="/detailprogram">Selengkapnya...</a>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-center mb-3">
-        <div class="col-md-12 col-xl-10">
-          <div class="card shadow-0 border rounded-3">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-                  <div class="bg-image hover-zoom ripple rounded ripple-surface">
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(4).webp"
-                      class="w-100" />
-                    <a href="#!">
-                      <div class="hover-overlay">
-                        <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-6">
-                  <h5>Sedekah untuk 75 santri</h5>
-                  <div class="d-flex flex-row">
-                    <div class="text-danger mb-1 me-2">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
                     </div>
-                    <span>yayasan Al Ma'ruf</span>
-                  </div>
-                  {{-- <div class="mt-1 mb-0 text-muted small">
-                    <span>100% cotton</span>
-                    <span class="text-primary"> • </span>
-                    <span>Light weight</span>
-                    <span class="text-primary"> • </span>
-                    <span>Best finish<br /></span>
-                  </div>
-                  <div class="mb-2 text-muted small">
-                    <span>Unique design</span>
-                    <span class="text-primary"> • </span>
-                    <span>For men</span>
-                    <span class="text-primary"> • </span>
-                    <span>Casual<br /></span>
-                  </div> --}}
-                  <div class="progress" style="margin-top: 30px">
-                    <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="text-truncate mb-4 mb-md-0" style="margin-top: 10px
-                  ">
-                   Rp46.690.122
-                  </p>
-                </div>
-                <div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
-                  {{-- <div class="d-flex flex-row align-items-center mb-1">
-                    <h4 class="mb-1 me-1">$13.99</h4>
-                    <span class="text-danger"><s>$20.99</s></span>
-                  </div> --}}
-                  <h6 class="text-success">47 Hari lagi</h6>
-                  <div class="d-flex flex-column mt-4">
-                    {{-- <button class="btn btn-primary btn-sm" type="button">Details</button> --}}
-                    <button class="btn btn-outline-primary btn-sm mt-2" type="button">
-                        <a href="/detailprogram">Selengkapnya...</a>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-center mb-3">
-        <div class="col-md-12 col-xl-10">
-          <div class="card shadow-0 border rounded-3">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-                  <div class="bg-image hover-zoom ripple rounded ripple-surface">
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(4).webp"
-                      class="w-100" />
-                    <a href="#!">
-                      <div class="hover-overlay">
-                        <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-6">
-                  <h5>Sedekah untuk 75 santri</h5>
-                  <div class="d-flex flex-row">
-                    <div class="text-danger mb-1 me-2">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
+                    <div class="col-md-6 col-lg-6 col-xl-6">
+                    <h5>{{ $program->judul }}</h5>
+                    <div class="d-flex flex-row">
+                        <div class="text-danger mb-1 me-2">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        </div>
+                        <span>{{ $program->user_id }}</span>
                     </div>
-                    <span>yayasan Al Ma'ruf</span>
-                  </div>
-                  {{-- <div class="mt-1 mb-0 text-muted small">
-                    <span>100% cotton</span>
-                    <span class="text-primary"> • </span>
-                    <span>Light weight</span>
-                    <span class="text-primary"> • </span>
-                    <span>Best finish<br /></span>
-                  </div>
-                  <div class="mb-2 text-muted small">
-                    <span>Unique design</span>
-                    <span class="text-primary"> • </span>
-                    <span>For men</span>
-                    <span class="text-primary"> • </span>
-                    <span>Casual<br /></span>
-                  </div> --}}
-                  <div class="progress" style="margin-top: 30px">
-                    <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="text-truncate mb-4 mb-md-0" style="margin-top: 10px
-                  ">
-                   Rp46.690.122
-                  </p>
+                    <div class="progress" style="margin-top: 30px">
+                        <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p class="text-truncate mb-4 mb-md-0" style="margin-top: 10px
+                    ">
+                    {{ $program->currentDana }}
+                    </p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
+                    {{-- <div class="d-flex flex-row align-items-center mb-1">
+                        <h4 class="mb-1 me-1">$13.99</h4>
+                        <span class="text-danger"><s>$20.99</s></span>
+                    </div> --}}
+                    <h6 class="text-success">
+                        {{ Carbon\Carbon::parse($program->tglAkhir)->diffForHumans() }}
+                    </h6>
+                    <div class="d-flex flex-column mt-4">
+                        {{-- <button class="btn btn-primary btn-sm" type="button">Details</button> --}}
+                        <button class="btn btn-outline-primary btn-sm mt-2" type="button">
+                            <a href="/detailprogram">Selengkapnya...</a>
+                        </button>
+                    </div>
+                    </div>
                 </div>
-                <div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
-                  {{-- <div class="d-flex flex-row align-items-center mb-1">
-                    <h4 class="mb-1 me-1">$13.99</h4>
-                    <span class="text-danger"><s>$20.99</s></span>
-                  </div> --}}
-                  <h6 class="text-success">47 Hari lagi</h6>
-                  <div class="d-flex flex-column mt-4">
-                    {{-- <button class="btn btn-primary btn-sm" type="button">Details</button> --}}
-                    <button class="btn btn-outline-primary btn-sm mt-2" type="button">
-                        <a href="/detailprogram">Selengkapnya...</a>
-                    </button>
-                  </div>
                 </div>
-              </div>
             </div>
-          </div>
+            </div>
         </div>
-      </div>
+    @endforeach
   </section>
 
 

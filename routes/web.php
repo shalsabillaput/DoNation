@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\GoogleController;
 use App\Http\Controllers\ChangePasswordController;
+use App\Http\Controllers\ProgramController;
 use App\Http\Controllers\Auth\ResetPasswordController;
 
 /*
@@ -21,17 +22,17 @@ Route::get('/', function () {
     return view('index');
 });
 
-<<<<<<< Updated upstream
+
 Route::get('/login', [AuthController::class, 'login'])->name("login")->middleware('guest');
 Route::post('/login', [AuthController::class, 'authenticate'])->middleware('guest');
-=======
+
 Route::get('/donasi', function () {
     return view('donasi');
 });
 
-Route::get('/login', [AuthController::class, 'login']);
-Route::post('/login', [AuthController::class, 'authenticate']);
->>>>>>> Stashed changes
+// Route::get('/login', [AuthController::class, 'login']);
+// Route::post('/login', [AuthController::class, 'authenticate']);
+// >>>>>>> Stashed changes
 
 Route::get('/home', [AuthController::class, 'home'])->middleware('auth');
 
@@ -61,11 +62,8 @@ Route::get('/ubahpassword', [ChangePasswordController::class, 'index'])->middlew
 Route::post('/ubahpassword', [ChangePasswordController::class, 'store'])->middleware('auth');
 
 
-Route::get('/listprogram', function () {
-    return view('user.listprogram');
 
-
-});
+Route::get('/listprogram', [ProgramController::class, 'index']);
 
 Route::get('/detailprogram', function () {
     return view('user.detailprogram');
@@ -78,3 +76,21 @@ Route::get('/payment', function () {
 
 
 });
+
+Route::get('/hisdon', function () {
+    return view('user.historydonasi');
+
+
+});
+
+Route::get('/hispro', function () {
+    return view('user.historyprogram');
+
+
+});
+
+// Route::get('/listprogram', 'DonasiController@listprogram');
+// Route::get('/', 'PagesController@detailprogram');
+// Route::get('/', 'PagesController@payment');
+// Route::get('/', 'PagesController@hisdon');
+// Route::get('/', 'PagesController@hispro');

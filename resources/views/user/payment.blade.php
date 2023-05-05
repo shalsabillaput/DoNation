@@ -119,7 +119,7 @@
               </div>
 
               <div class="d-flex justify-content-between align-items-center pb-1">
-                <button type="button" class="btn btn-primary btn-lg align-items-center">Pay amount</button>
+                <button type="button" class="btn btn-primary btn-lg align-items-center" style="text-align:center">Donasikan</button>
               </div>
             </div>
           </div>
